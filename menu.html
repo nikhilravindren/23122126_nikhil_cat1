@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KFC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url('kfc.jpg'); background-repeat: no-repeat; background-size: 100%;">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg" style="background-color: transparent;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-danger" href="index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger" aria-current="page" href="menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="offre.html">OFFERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="orders.html">YOUR ORDERS</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--cards-->
+    <div class="row">
+        <div class="col-sm-4">
+            <center>
+                <h1 class="text-danger">new items</h1>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\Vegas Fried Chicken & Burger.jpg" height="200px" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">your burger</h5>
+                        <p class="card-text text-danger">yummy burger just for 149/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog2.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\Vegas Fried Chicken & Burger.jpg" height="200px" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">your burger</h5>
+                        <p class="card-text text-danger">yummy burger just for 149/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog2.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\Vegas Fried Chicken & Burger.jpg" height="200px" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">your burger</h5>
+                        <p class="card-text text-danger">yummy burger just for 149/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog2.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\Vegas Fried Chicken & Burger.jpg" height="200px" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">your burger</h5>
+                        <p class="card-text text-danger">yummy burger just for 149/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog2.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+
+            </center>
+        </div>
+        <div class="col-sm-4">
+            <center>
+                <h1 class="text-danger">most orderd</h1>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\KFC Sauce Recipe - Simple Copycat Recipes.jpg" height="200px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">peri peri potato</h5>
+                        <p class="card-text text-danger">potato fry just for 99/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\KFC Sauce Recipe - Simple Copycat Recipes.jpg" height="200px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">peri peri potato</h5>
+                        <p class="card-text text-danger">potato fry just for 99/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\KFC Sauce Recipe - Simple Copycat Recipes.jpg" height="200px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">peri peri potato</h5>
+                        <p class="card-text text-danger">potato fry just for 99/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\KFC Sauce Recipe - Simple Copycat Recipes.jpg" height="200px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">peri peri potato</h5>
+                        <p class="card-text text-danger">potato fry just for 99/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div class="col-sm-4">
+            <center>
+                <h1 class="text-danger">kfc specials</h1>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\KFC Sauce Recipe - Simple Copycat Recipes.jpg" height="200px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">peri peri potato</h5>
+                        <p class="card-text text-danger">potato fry just for 99/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\KFC Sauce Recipe - Simple Copycat Recipes.jpg" height="200px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">peri peri potato</h5>
+                        <p class="card-text text-danger">potato fry just for 99/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\KFC Sauce Recipe - Simple Copycat Recipes.jpg" height="200px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">peri peri potato</h5>
+                        <p class="card-text text-danger">potato fry just for 99/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="New folder\KFC Sauce Recipe - Simple Copycat Recipes.jpg" height="200px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">peri peri potato</h5>
+                        <p class="card-text text-danger">potato fry just for 99/-</p>
+                        <a href="#" class="btn btn-primary text-danger" onclick="addtocart()">buy</a>
+                        <a href="blog.html" class="btn btn-primary text-danger">see description</a>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
